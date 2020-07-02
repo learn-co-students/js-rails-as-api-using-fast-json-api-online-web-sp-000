@@ -1,0 +1,3 @@
+// so you can change the name of the file and still merge with a different file...
+
+This should make collaboration easier, if people are using different naming conventions across platforms.
