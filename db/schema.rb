@@ -6,6 +6,10 @@
 # database schema. If you need to create the application database on another
 # system, you should be using db:schema:load, not running all the migrations
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
+#oduce the Fast JSON API
+The Fast JSON API is a JSON serializer for Rails APIs. It provides a way for us to generate serializer classes for each resource object in our API that is involved in customized JSON rendering. We can use these serializer classes to define the specific attributes we want objects to share or not share, along with things like related object attributes.
+
+The result is that in our controller actions, rather than writing a custom render each time, we write out a serializer for each object once and use Fast
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
