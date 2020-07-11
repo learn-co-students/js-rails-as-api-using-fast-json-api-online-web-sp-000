@@ -1,6 +1,13 @@
 class SightingsController < ApplicationController
-  def show
-    sighting = Sighting.find(params[:id])
-    render json: sighting.to_json(:include => {:bird => {:only =>[:name, :species]}, :location => {:only =>[:latitude, :longitude]}}, :except => [:updated_at])
+
+  def index
+    birds = Bird.all
+    render json: BirdSerializer.new(birds)
   end
+
+  def show
+    bird = Bird.find_by(id: params[:id])
+    render json BirdSerializer.new(bird)
+  end
+
 end
