@@ -12,7 +12,7 @@ We've seen that it is entirely possible to create our own service class
 serializers from scratch. This issue is common enough, though, that there are
 some popular standardized serializer options available for us to use. In this
 lesson, we are going to look at one popular option, the [Fast JSON API][fast_jsonapi]
-gem and use it to create a close approximation to our JSON data from the
+gem and use it to create a close approximation to our JSON data dfrom the
 previous lessons.
 
 The files in this lesson were populated using the API-only Rails build. Run
