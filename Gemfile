@@ -44,3 +44,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# FAST JSON API:
+# run bundle install 
+# JSON serializer for rails apis. 
+# provides a way to generate serializer classes for each resource object in our API that is customized JSON rendering 
+# define specific attritbutes we want objects to share
+# in controller, write out serializer for each object once
+# controls the way our data is structured 
+gem 'fast_jsonapi'
+
+#then: serializer classes for all models 
+#rails g serializer Bird
+#rails g serializer Location
+#rails g serializer Sighting
