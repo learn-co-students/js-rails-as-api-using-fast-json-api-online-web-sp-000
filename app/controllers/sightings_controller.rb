@@ -11,4 +11,7 @@ class SightingsController < ApplicationController
     }
     render json: SightingSerializer.new(sighting, options)
   end
+
+
+  
 end
