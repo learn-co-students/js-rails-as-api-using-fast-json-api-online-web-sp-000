@@ -17,6 +17,10 @@ gem 'puma', '~> 3.12'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Adds serializer generator. Does not actually generate the serializer code, only the framework for it.
+gem 'fast_jsonapi'
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
